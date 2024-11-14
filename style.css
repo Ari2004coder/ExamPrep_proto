@@ -1,0 +1,79 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%
+}
+#page1{
+    height: 100%;
+    width: 130vw;
+    background-color: black;
+    color :#ffff;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    /* align-items: center; */
+    
+}
+#page1 h1{
+    text-wrap: wrap;
+    font-size:100px
+}
+#page1 h1 #preps{
+    color:rgb(69, 129, 241)
+}
+#page1 h1 #examprep{
+    color:rgba(246, 5, 53, 0.989)
+}
+#page1 #box #box1{
+    opacity: 1;
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+}
+#page1 #box{
+    display: flex;
+    text-wrap: wrap;
+}
+#page1 #box p{
+    text-wrap: wrap;
+
+}
+/* page2 css */
+#page2{
+    height: 100%;
+    width: 130vw;
+    background-color:rgb(47, 47, 177);
+    color:azure 
+}
+#page2 h1{
+    font-size: 40px;
+    margin:2px;
+    background-image:url(/Math/M\(IT\)302_2023.pdf);
+
+}
+#page2 #container1{
+    display:flex;
+    flex-direction: column;
+    
+    align-content: space-between;
+    
+
+}
+#page2 .btn-group{
+    
+    width:200px;
+    margin:5px;
+}
+
+#page3{
+    height: 100%;
+    width: 130vw;
+    background-color:#4141;
+    color :#ffff;}
+
